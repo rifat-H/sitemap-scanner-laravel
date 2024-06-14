@@ -1,0 +1,26 @@
+{
+    "name": "rifat-h/site-map-scanner",
+    "description": "A package for scanning url and returns sitemap xml as string",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rifat Hossain",
+            "email": "rifat@startuparrat.com"
+        }
+    ],
+    "require": {
+        "ext-dom": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "RifatH\\SiteMapScanner\\": "src"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers": [
+                "RifatH\\SiteMapScanner\\SiteMapScannerServiceProvider"
+            ]
+        }
+    }
+}
