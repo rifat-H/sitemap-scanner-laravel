@@ -5,7 +5,7 @@ laravel sitemap scanner, takes url and returl sitemap xml as string
 In your laravel project, run ``` composer require rifat-h/site-map-scanner  ```
 
 # Usage
-To run the scanner first add ``` use RifatH\SiteMapScanner\Scanner\Scanner; ``` top of you files.
+To run the scanner first add ``` use RifatH\SiteMapScanner\Scanner\Scanner; ``` top of your php files.
 
 Then use it like this. 
 ```
