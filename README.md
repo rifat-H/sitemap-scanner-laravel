@@ -9,6 +9,8 @@ To run the scanner first add ``` use RifatH\SiteMapScanner\Scanner\Scanner; ``` 
 
 Then use it like this. 
 ```
+use RifatH\SiteMapScanner\Scanner\Scanner;
+
 public function index()
 {
 
